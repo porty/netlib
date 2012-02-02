@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netlib", "netlib.vcxproj", "{E934BCBA-3261-4471-B7A3-E6BBB2D5344D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "..\test\test.vcxproj", "{99D63FAE-1FB9-4F10-8C06-B839401AE3B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E934BCBA-3261-4471-B7A3-E6BBB2D5344D} = {E934BCBA-3261-4471-B7A3-E6BBB2D5344D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E934BCBA-3261-4471-B7A3-E6BBB2D5344D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E934BCBA-3261-4471-B7A3-E6BBB2D5344D}.Debug|Win32.Build.0 = Debug|Win32
+		{E934BCBA-3261-4471-B7A3-E6BBB2D5344D}.Release|Win32.ActiveCfg = Release|Win32
+		{E934BCBA-3261-4471-B7A3-E6BBB2D5344D}.Release|Win32.Build.0 = Release|Win32
+		{99D63FAE-1FB9-4F10-8C06-B839401AE3B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99D63FAE-1FB9-4F10-8C06-B839401AE3B9}.Debug|Win32.Build.0 = Debug|Win32
+		{99D63FAE-1FB9-4F10-8C06-B839401AE3B9}.Release|Win32.ActiveCfg = Release|Win32
+		{99D63FAE-1FB9-4F10-8C06-B839401AE3B9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
